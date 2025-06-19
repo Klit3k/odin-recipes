@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDF2EF;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recipe-container {
+    color: #EDF2EF;
+    background-color: #212738;
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    margin: auto;
+}
+
+.content-container {
+    flex: 1 1 auto;
+}
+
+.title-container {
+    flex: 1 1 auto;
+    min-width: 180px;
+}
